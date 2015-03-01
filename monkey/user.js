@@ -16,7 +16,7 @@
 (function(){
 	var socket = io('http://192.168.1.105:3000')
 
-	socket.on('sto code', function(code){alert(code)
+	socket.on('sto code', function(code){
 		document.getElementById('offlineMailNoSTO').value=code;
 	})
 })()
